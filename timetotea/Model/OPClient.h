@@ -7,10 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface OPClient : NSObject
 
 @property (strong, nonatomic) NSString* clientName;
+@property (strong, nonatomic) NSString* clienLastName;
+
+@property (strong, nonatomic) UIImage* profileImage;
 
 -(void) simplyRegistration;
 

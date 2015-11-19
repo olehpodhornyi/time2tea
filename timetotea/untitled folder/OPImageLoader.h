@@ -10,21 +10,9 @@
 #import <UIKit/UIKit.h>
 
 
-@protocol ImageLoaderDelegate;
+@interface OPImageLoader : NSObject <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
+@property (strong, nonatomic) UIImagePickerController* pickerController;
 
-@interface ImageLoader : NSObject
-@property (assign, nonatomic) id  delegate; // Свойство для задания делегата
-@property(assign, nonatomic) int index; // Свойство для упрощения обработки полученной картинки в делегате
-@property(strong, nonatomic) NSMutableData *activeDownloadData; // Буфер для данных
-
--(void)loadImage:(NSString *)imageURLString; // Метод, который грузит катринку.
-// Принимает на вход URL на картинку
-
-@end
-
-@protocol ImageLoaderDelegate <NSObject>
-
--(void) appImageDidLoad:(UIImage*)image index:(int)index; // Метод делегата, вызываемый по получению файла
 
 @end

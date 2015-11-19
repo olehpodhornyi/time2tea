@@ -15,7 +15,7 @@
 		7CC1042B1BFC5F7F00E93D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1040D1BFC594400E93D7E /* AppDelegate.m */; };
 		7CC104371BFC625000E93D7E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1041A1BFC594400E93D7E /* Info.plist */; };
 		7CC1043E1BFC6AAE00E93D7E /* OPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1043D1BFC6AAE00E93D7E /* OPClient.m */; };
-		7CC104411BFC6F7900E93D7E /* OPImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC104401BFC6F7900E93D7E /* OPImageLoader.m */; };
+		7CC104431BFCA27B00E93D7E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC104421BFCA27B00E93D7E /* Photos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,7 @@
 		7CC1041A1BFC594400E93D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CC1043C1BFC6AAE00E93D7E /* OPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OPClient.h; path = Model/OPClient.h; sourceTree = "<group>"; };
 		7CC1043D1BFC6AAE00E93D7E /* OPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OPClient.m; path = Model/OPClient.m; sourceTree = "<group>"; };
-		7CC1043F1BFC6F7900E93D7E /* OPImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OPImageLoader.h; path = "untitled folder/OPImageLoader.h"; sourceTree = "<group>"; };
-		7CC104401BFC6F7900E93D7E /* OPImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OPImageLoader.m; path = "untitled folder/OPImageLoader.m"; sourceTree = "<group>"; };
+		7CC104421BFCA27B00E93D7E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC104431BFCA27B00E93D7E /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +49,7 @@
 		7CC103FD1BFC594400E93D7E = {
 			isa = PBXGroup;
 			children = (
+				7CC104421BFCA27B00E93D7E /* Photos.framework */,
 				7CC104081BFC594400E93D7E /* timetotea */,
 				7CC104071BFC594400E93D7E /* Products */,
 			);
@@ -116,8 +117,6 @@
 		7CC1043B1BFC6A5600E93D7E /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				7CC1043F1BFC6F7900E93D7E /* OPImageLoader.h */,
-				7CC104401BFC6F7900E93D7E /* OPImageLoader.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -195,7 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CC104111BFC594400E93D7E /* ViewController.m in Sources */,
-				7CC104411BFC6F7900E93D7E /* OPImageLoader.m in Sources */,
 				7CC1040B1BFC594400E93D7E /* main.m in Sources */,
 				7CC1042B1BFC5F7F00E93D7E /* AppDelegate.m in Sources */,
 				7CC1043E1BFC6AAE00E93D7E /* OPClient.m in Sources */,
@@ -360,6 +358,7 @@
 				7CC1041F1BFC594400E93D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
