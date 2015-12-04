@@ -15,7 +15,14 @@
 		7CC1042B1BFC5F7F00E93D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1040D1BFC594400E93D7E /* AppDelegate.m */; };
 		7CC104371BFC625000E93D7E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1041A1BFC594400E93D7E /* Info.plist */; };
 		7CC1043E1BFC6AAE00E93D7E /* OPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1043D1BFC6AAE00E93D7E /* OPClient.m */; };
-		7CC104431BFCA27B00E93D7E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC104421BFCA27B00E93D7E /* Photos.framework */; };
+		7CF9DEF21BFEFDEA006F2F9A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF9DEF11BFEFDEA006F2F9A /* libsqlite3.tbd */; };
+		7CF9DEF41BFEFE14006F2F9A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF9DEF31BFEFE14006F2F9A /* libsqlite3.0.tbd */; };
+		7CF9DF281C05DBB0006F2F9A /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF9DF271C05DBB0006F2F9A /* blank.png */; };
+		7CF9DF311C05E016006F2F9A /* OPDBConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DF301C05E016006F2F9A /* OPDBConnection.m */; };
+		7CF9DF3A1C05E229006F2F9A /* timetotea in Resources */ = {isa = PBXBuildFile; fileRef = 7CF9DF391C05E229006F2F9A /* timetotea */; };
+		7CF9DFAE1C0637C1006F2F9A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DFAD1C0637C1006F2F9A /* MainViewController.m */; };
+		7CF9DFB11C063BE4006F2F9A /* OPCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DFB01C063BE4006F2F9A /* OPCustomSegue.m */; };
+		7CF9DFD71C071C82006F2F9A /* HeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DFD61C071C82006F2F9A /* HeadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +38,18 @@
 		7CC1041A1BFC594400E93D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CC1043C1BFC6AAE00E93D7E /* OPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OPClient.h; path = Model/OPClient.h; sourceTree = "<group>"; };
 		7CC1043D1BFC6AAE00E93D7E /* OPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OPClient.m; path = Model/OPClient.m; sourceTree = "<group>"; };
-		7CC104421BFCA27B00E93D7E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		7CF9DEF11BFEFDEA006F2F9A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7CF9DEF31BFEFE14006F2F9A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7CF9DF271C05DBB0006F2F9A /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		7CF9DF2F1C05E016006F2F9A /* OPDBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPDBConnection.h; sourceTree = "<group>"; };
+		7CF9DF301C05E016006F2F9A /* OPDBConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPDBConnection.m; sourceTree = "<group>"; };
+		7CF9DF391C05E229006F2F9A /* timetotea */ = {isa = PBXFileReference; lastKnownFileType = file; name = timetotea; path = ../../../litra/timetotea; sourceTree = "<group>"; };
+		7CF9DFAC1C0637C1006F2F9A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7CF9DFAD1C0637C1006F2F9A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7CF9DFAF1C063BE4006F2F9A /* OPCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPCustomSegue.h; sourceTree = "<group>"; };
+		7CF9DFB01C063BE4006F2F9A /* OPCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPCustomSegue.m; sourceTree = "<group>"; };
+		7CF9DFD51C071C82006F2F9A /* HeadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadViewController.h; sourceTree = "<group>"; };
+		7CF9DFD61C071C82006F2F9A /* HeadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CC104431BFCA27B00E93D7E /* Photos.framework in Frameworks */,
+				7CF9DEF41BFEFE14006F2F9A /* libsqlite3.0.tbd in Frameworks */,
+				7CF9DEF21BFEFDEA006F2F9A /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +68,6 @@
 		7CC103FD1BFC594400E93D7E = {
 			isa = PBXGroup;
 			children = (
-				7CC104421BFCA27B00E93D7E /* Photos.framework */,
 				7CC104081BFC594400E93D7E /* timetotea */,
 				7CC104071BFC594400E93D7E /* Products */,
 			);
@@ -66,12 +84,15 @@
 		7CC104081BFC594400E93D7E /* timetotea */ = {
 			isa = PBXGroup;
 			children = (
+				7CF9DEF31BFEFE14006F2F9A /* libsqlite3.0.tbd */,
+				7CF9DEF11BFEFDEA006F2F9A /* libsqlite3.tbd */,
 				7CC1040C1BFC594400E93D7E /* AppDelegate.h */,
+				7CF9DF391C05E229006F2F9A /* timetotea */,
 				7CC1040D1BFC594400E93D7E /* AppDelegate.m */,
 				7CC1043B1BFC6A5600E93D7E /* Helper */,
 				7CC104381BFC6A3600E93D7E /* Model */,
 				7CC104391BFC6A4000E93D7E /* View */,
-				7CC1043A1BFC6A4600E93D7E /* Contoller */,
+				7CC1043A1BFC6A4600E93D7E /* Controller */,
 				7CC104091BFC594400E93D7E /* Supporting Files */,
 			);
 			path = timetotea;
@@ -82,6 +103,7 @@
 			children = (
 				7CC1041A1BFC594400E93D7E /* Info.plist */,
 				7CC1040A1BFC594400E93D7E /* main.m */,
+				7CF9DF271C05DBB0006F2F9A /* blank.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -105,18 +127,26 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		7CC1043A1BFC6A4600E93D7E /* Contoller */ = {
+		7CC1043A1BFC6A4600E93D7E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7CF9DFAC1C0637C1006F2F9A /* MainViewController.h */,
+				7CF9DFAD1C0637C1006F2F9A /* MainViewController.m */,
 				7CC1040F1BFC594400E93D7E /* ViewController.h */,
 				7CC104101BFC594400E93D7E /* ViewController.m */,
+				7CF9DFD51C071C82006F2F9A /* HeadViewController.h */,
+				7CF9DFD61C071C82006F2F9A /* HeadViewController.m */,
 			);
-			name = Contoller;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		7CC1043B1BFC6A5600E93D7E /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				7CF9DF2F1C05E016006F2F9A /* OPDBConnection.h */,
+				7CF9DF301C05E016006F2F9A /* OPDBConnection.m */,
+				7CF9DFAF1C063BE4006F2F9A /* OPCustomSegue.h */,
+				7CF9DFB01C063BE4006F2F9A /* OPCustomSegue.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -183,6 +213,8 @@
 				7CC104191BFC594400E93D7E /* LaunchScreen.storyboard in Resources */,
 				7CC104161BFC594400E93D7E /* Assets.xcassets in Resources */,
 				7CC104141BFC594400E93D7E /* Main.storyboard in Resources */,
+				7CF9DF281C05DBB0006F2F9A /* blank.png in Resources */,
+				7CF9DF3A1C05E229006F2F9A /* timetotea in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,9 +225,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF9DFD71C071C82006F2F9A /* HeadViewController.m in Sources */,
 				7CC104111BFC594400E93D7E /* ViewController.m in Sources */,
+				7CF9DFAE1C0637C1006F2F9A /* MainViewController.m in Sources */,
 				7CC1040B1BFC594400E93D7E /* main.m in Sources */,
 				7CC1042B1BFC5F7F00E93D7E /* AppDelegate.m in Sources */,
+				7CF9DFB11C063BE4006F2F9A /* OPCustomSegue.m in Sources */,
+				7CF9DF311C05E016006F2F9A /* OPDBConnection.m in Sources */,
 				7CC1043E1BFC6AAE00E93D7E /* OPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

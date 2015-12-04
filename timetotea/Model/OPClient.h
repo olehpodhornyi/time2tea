@@ -11,8 +11,16 @@
 
 @interface OPClient : NSObject
 
-@property (strong, nonatomic) NSString* clientName;
-@property (strong, nonatomic) NSString* clienLastName;
+@property (strong, nonatomic) NSString* name;
+@property (strong, nonatomic) NSString* lastName;
+@property (strong, nonatomic) NSDate* dateOfBirth;
+@property (assign, nonatomic) int radius;
+@property (nonatomic) NSString* contactNumber;
+@property (nonatomic) NSString* electronicMailAdress;
+@property (strong, nonatomic) NSString* martialStatus;
+@property (strong, nonatomic) NSString* aboutInformation;
+@property (strong, nonatomic) NSString* homeSite;
+@property (strong, nonatomic) NSString* adress;
 
 @property (strong, nonatomic) UIImage* profileImage;
 

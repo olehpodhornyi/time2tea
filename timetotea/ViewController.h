@@ -15,7 +15,8 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *profileImage;
 
-@property (strong, nonatomic) OPClient* user;
+@property (weak, nonatomic) IBOutlet UIScrollView *texscrollView;
+
 @property (strong, nonatomic) NSMutableArray* arrayWithPhotos;
 @property (assign, nonatomic) NSUInteger imageID;
 //@property (strong,nonatomic) UITouch* touch;
@@ -25,9 +26,8 @@
 //Controls
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *lastName;
-
-@property (strong, nonatomic) IBOutlet UITextField *nameTextField;
-@property (strong, nonatomic) IBOutlet UITextField *lastNameTextField;
+- (IBAction)nameTextFieldChanged:(UITextField *)sender;
+- (IBAction)lastNameTextFiledChanged:(UITextField *)sender;
 
 - (IBAction)addProfileImage:(UIButton *)sender;
 - (IBAction)continueButton:(UIButton *)sender;
